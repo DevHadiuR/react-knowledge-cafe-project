@@ -1,13 +1,10 @@
 import "./App.css";
+import Header from "./Component/Header/Header";
 
 function App() {
-  return (
-    <>
-      <h1 className="text-3xl bg-lime-500 text-center">
-        React Knowledge Cafe Project
-      </h1>
-    </>
-  );
+  return <>
+  <Header></Header>
+  </>;
 }
 
 export default App;

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co/9nVxXB2/cover1.jpg",
+    "title": "Lorem Ipsum",
+    "author": "John Doe",
+    "img": "https://i.ibb.co/W2ZPdSL/img1.jpg",
+    "posted_date": "2023-10-27",
+    "reading_time": 10,
+    "hashtags": ["#Lorem", "#Ipsum", "#Dolor"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/9Wc3L1s/cover2.jpg",
+    "title": "Dolor Sit Amet",
+    "author": "Jane Smith",
+    "img": "https://i.ibb.co/HFMx5F2/img2.jpg",
+    "posted_date": "2023-10-26",
+    "reading_time": 15,
+    "hashtags": ["#Dolor", "#Sit", "#Amet"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/fMRp2YB/cover3.jpg",
+    "title": "Consectetur Adipiscing Elit",
+    "author": "Alice Johnson",
+    "img": "https://i.ibb.co/881Pyd0/img3.jpg",
+    "posted_date": "2023-10-25",
+    "reading_time": 8,
+    "hashtags": ["#Consectetur", "#Adipiscing", "#Elit"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co/8shNKTr/cover4.jpg",
+    "title": "Sed Do Eiusmod Tempor",
+    "author": "Mark Wilson",
+    "img": "https://i.ibb.co/ggFSt6j/img4.jpg",
+    "posted_date": "2023-10-24",
+    "reading_time": 12,
+    "hashtags": ["#Sed", "#Do", "#Eiusmod"]
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co/tZQbQr1/cover5.jpg",
+    "title": "Incididunt Ut Labore",
+    "author": "Emily Brown",
+    "img": "https://i.ibb.co/qmmkGBj/img5.jpg",
+    "posted_date": "2023-10-23",
+    "reading_time": 20,
+    "hashtags": ["#Incididunt", "#Ut", "#Labore"]
+  }
+]

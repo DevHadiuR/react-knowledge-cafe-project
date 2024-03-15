@@ -12,12 +12,18 @@ function App() {
     setBookmarks(newBookmark);
   };
 
+  const [readTime, setReadTime] = useState(0);
+
+  const handleReadTime = (time) => {
+    setReadTime(readTime + time);
+  };
+
   return (
     <>
       <Header></Header>
       <main className="container mx-auto md:flex mt-10 gap-10 border-2 p-4 rounded-lg">
-        <Blogs handleAdd2Bookmark={handleAdd2Bookmark}></Blogs>
-        <Bookmarks bookmarks={bookmarks}></Bookmarks>
+        <Blogs handleReadTime={handleReadTime} handleAdd2Bookmark={handleAdd2Bookmark}></Blogs>
+        <Bookmarks readTime={readTime} bookmarks={bookmarks}></Bookmarks>
       </main>
     </>
   );
